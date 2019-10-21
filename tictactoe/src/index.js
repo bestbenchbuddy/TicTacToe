@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+//function to change text in a square
 function Square(props) {  
     return (
       <button className="square" onClick={props.onClick}>
@@ -10,6 +11,7 @@ function Square(props) {
     );
 }
 
+//Board component that saves states of the squares, whose turn it is and stops the game if someone wins
 class Board extends React.Component {
   constructor(props) {
 	super(props);
