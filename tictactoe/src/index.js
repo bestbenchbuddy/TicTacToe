@@ -1,3 +1,6 @@
+//The following tutorial from React's official website was used to help create this application: 
+//https://reactjs.org/tutorial/tutorial.html#setup-for-the-tutorial
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
