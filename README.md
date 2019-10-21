@@ -1,7 +1,12 @@
 # TicTacToe
 Using react
 
+Requirements: 
+Download and install node.js: https://nodejs.org/en/download/
+
 How to run:
+npx create-react-app your_app_name
+Replace src folder with this project's src folder
 Run npm start while in the parent folder.
 
 How to play:
